@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+  int h, w;
+  printf("키, 몸무게: ");
+  scanf("%d %d", &h, &w);
+  printf("키:%d 몸무개:%d", h, w);
+  return 0;
+}
