@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+  int s, m;
+  printf("초 단위 시간: ");
+  scanf("%d", &s);
+  m = s/60;
+  s = s%60;
+  printf("%d분 %d초", m, s);
+  return 0;
+}
